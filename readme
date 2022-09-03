@@ -7,3 +7,7 @@ go build main.go
 ````terminal
 ./main
 ````
+
+```shell
+go run main.go
+```
