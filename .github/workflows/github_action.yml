@@ -35,6 +35,6 @@ jobs:
         run: |
           go vet
       # fmt 確認 
-      - name: fmt checks
+      - name: fmt2 checks
         run: |
           go fmt
