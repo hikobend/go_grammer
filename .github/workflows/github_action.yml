@@ -34,3 +34,7 @@ jobs:
       - name: fmt checks
         run: |
           go vet
+      # fmt 確認 
+      - name: fmt checks
+        run: |
+          go fmt
