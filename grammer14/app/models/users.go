@@ -20,10 +20,9 @@ func (u *User) CreateUser() (err error) {
 		name,
 		email,
 		password,
-		created_at) values (?,?,?,?,?)`
+		created_at) values (?, ?, ?, ?, ?)`
 
-	_, err = Db.Exec(
-		cmd,
+	_, err = Db.Exec(cmd,
 		createUUID(),
 		u.Name,
 		u.Email,
