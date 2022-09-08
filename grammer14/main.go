@@ -3,19 +3,24 @@ package main
 import (
 	"fmt"
 
+	"example.com/m/grammer14/app/controllers"
 	"example.com/m/grammer14/app/models"
 )
 
 func main() {
+
 	fmt.Println(models.Db)
 
-	u := &models.User{}
-	u.Name = "test2"
-	u.Email = "test2@example.com"
-	u.PassWord = "testtest"
-	fmt.Println(u)
+	controllers.StarMainServer()
+	/*
+		u := &models.User{}
+		u.Name = "test2"
+		u.Email = "test2@example.com"
+		u.PassWord = "testtest"
+		fmt.Println(u)
 
-	u.CreateUser()
+		u.CreateUser()
+	*/
 
 	/*
 		u, _ := models.GetUser(1)
@@ -65,8 +70,14 @@ func main() {
 		}
 	*/
 
-	t, _ := models.GetTodos(1)
-	t.Content = "Update Todo"
-	t.UpdateTodo()
+	/*
+		t, _ := models.GetTodo(1)
+		t.Content = "Update Todo"
+		t.UpdateTodo()
+	*/
 
+	/*
+		t, _ := models.GetTodo(3)
+		t.DeleteTodo()
+	*/
 }
