@@ -1,3 +1,8 @@
 2022/09/08 07:52:23 main.go:16: test
 2022/09/08 07:53:35 main.go:16: test
 2022/09/08 07:53:39 main.go:16: test
+2022/09/08 08:40:56 base.go:24: sql: unknown driver "sqlte3" (forgotten import?)
+2022/09/08 08:41:32 base.go:23: sql: unknown driver "sqlte3" (forgotten import?)
+2022/09/08 08:42:48 base.go:24: sql: unknown driver "sqlte3" (forgotten import?)
+2022/09/08 08:49:41 base.go:24: sql: unknown driver "sqlte3" (forgotten import?)
+2022/09/08 08:52:06 base.go:24: sql: unknown driver "sqlte3" (forgotten import?)
