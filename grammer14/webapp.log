@@ -6,3 +6,4 @@
 2022/09/08 08:42:48 base.go:24: sql: unknown driver "sqlte3" (forgotten import?)
 2022/09/08 08:49:41 base.go:24: sql: unknown driver "sqlte3" (forgotten import?)
 2022/09/08 08:52:06 base.go:24: sql: unknown driver "sqlte3" (forgotten import?)
+2022/09/08 09:28:49 users.go:34: near "value": syntax error
