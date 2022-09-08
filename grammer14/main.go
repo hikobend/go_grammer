@@ -33,4 +33,9 @@ func main() {
 		fmt.Println(u)
 	*/
 
+	user, _ := models.GetUser(2)
+	user.CreateTodo("First Todo")
+
+	t, _ := models.GetTodo(1)
+	fmt.Println(t)
 }
