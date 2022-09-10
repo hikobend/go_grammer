@@ -8,6 +8,8 @@ go build main.go
 ./main
 ````
 
+もしくはこれ
+
 ```shell
 go run main.go
 ```
