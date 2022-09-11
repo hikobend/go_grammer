@@ -13,3 +13,5 @@ go build main.go
 ```shell
 go run main.go
 ```
+
+起動速度が異なる模様
